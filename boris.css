@@ -1,0 +1,117 @@
+@import url(https://fonts.googleapis.com/css?family=Inconsolata:400,700);
+
+body {
+    background-color: #a10000;
+    margin: 0;
+    padding: 13px;
+}
+
+a {
+    color: #fff;
+    transition: 0.2s;
+}
+
+a:hover {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: line-through;
+    transition: 0.2s;
+}
+
+table {
+	text-transform: uppercase;
+	font-family: "Inconsolata", monospace;
+	letter-spacing: 2px;
+	width: 100%;
+	font-size: 13px;
+	margin-left: auto;
+	margin-right: auto;
+	border-collapse: collapse;
+    margin-bottom: 13px;
+    border-spacing: 50px;
+    text-shadow: 2px 2px 2px #000000;
+}
+
+.showroom {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    color: #fff;
+    text-transform: uppercase;
+	font-family: "Inconsolata", monospace;
+	letter-spacing: 2px;
+	font-size: 13px;
+    text-shadow: 2px 2px 2px #000000;
+    margin-bottom: 13px;
+    border: 1px solid #fff;
+    border-bottom: none;
+}
+
+table tr td {
+	padding: 25px;
+	padding-bottom: 12px;
+	vertical-align: bottom;
+	border: 1px solid #fff;
+	position: relative;
+    color: #fff;
+}
+
+td:before {
+	content: attr(title);
+	color: #fff;
+	font-size: 8px;
+	position: absolute;
+	top: 10px;
+	left: 25px;
+}
+
+
+/* SPECIFIC STYLING */
+
+tr td center b {
+	font-size: 15px;
+}
+
+.image {
+	width: 600px;
+	padding: 50px;
+}
+
+
+/*OMAA ZeTTii!*/
+
+header {
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 8vw;
+    color: #fff;
+    text-shadow: 0px 2px 14px #000000;
+}
+
+.star {
+    color: #b90000; 
+    font-size: 10vw;
+    text-shadow: 0px 2px 14px #000000;
+}
+
+.otsikot {
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-shadow: none
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+}
+
+li a {
+    color: #aaaaaa;
+}
+
+li a:hover {
+    color: #fff;
+    text-decoration: none;
+}
